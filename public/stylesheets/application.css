@@ -1,7 +1,47 @@
 body {
   background-color: #b2cecf;
+  height: 100%;
+}
+
+.center {
+  text-align: center;
 }
 
 h1, h3, p {
   font-family: 'Arvo', serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.transition-button {
+  font-size: 60px;
+  color: white;
+}
+
+.section {
+  padding-bottom: 10em;
+}
+
+#section-1 {
+  padding-top: 4em;
+  height: 100%;
+  width: 100%;
+}
+
+#section-2 {
+  padding: 10em;
 }
