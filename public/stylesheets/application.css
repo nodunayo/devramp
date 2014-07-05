@@ -1,5 +1,4 @@
 body {
-  background-color: #b2cecf;
   height: 100%;
 }
 
@@ -12,15 +11,36 @@ h1, h3, p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
+  padding-top: 1em;
+  margin-top: 0;
+  color: #ECEAE0;
+
+}
+
+#title-strip {
+  margin-top: 2em;
+  padding-bottom: 1em;
+  background-color: #63AA9C;
 }
 
 h3 {
-  font-size: 60px;
+  font-size: 54px;
 }
 
 p {
   font-size: 30px;
+  line-height: 2em;
+}
+
+p.info-box {
+  background-color: #ECEAE0;
+  border-radius: 10px;
+  padding: 2em;
+}
+
+.emphasis {
+  color: #63AA9C;
 }
 
 a {
@@ -29,7 +49,14 @@ a {
 
 .transition-button {
   font-size: 60px;
-  color: white;
+}
+
+.transition-button-1 {
+  color: #63AA9C;
+}
+
+.transition-button-2 {
+  color: #ECEAE0;
 }
 
 .section {
@@ -37,11 +64,11 @@ a {
 }
 
 #section-1 {
-  padding-top: 4em;
-  height: 100%;
-  width: 100%;
+  background-color: #ECEAE0;
+  overflow-y: hidden;
 }
 
 #section-2 {
-  padding: 10em;
+  background-color: #63AA9C;
+  padding: 5em 10em 10em 10em;
 }
