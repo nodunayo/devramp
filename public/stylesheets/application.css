@@ -12,20 +12,18 @@ h1, h3, p {
 
 h1 {
   font-size: 48px;
-  padding-top: 1em;
-  margin-top: 0;
   color: #ECEAE0;
-
+  padding-top: 0.5em;
+  margin-top: 0;
+  margin-left: 1em;
+  text-align:left;
 }
 
-#title-strip {
-  margin-top: 2em;
-  padding-bottom: 1em;
-  background-color: #63AA9C;
-}
 
 h3 {
-  font-size: 54px;
+  font-size: 64px;
+  text-align: center;
+  color: #ADD8E6;
 }
 
 p {
@@ -34,7 +32,7 @@ p {
 }
 
 p.info-box {
-  background-color: #ECEAE0;
+  background-color: #FFFFFF;
   border-radius: 10px;
   padding: 2em;
 }
@@ -49,26 +47,26 @@ a {
 
 .transition-button {
   font-size: 60px;
+  color: #FFFFFF;
 }
 
 .transition-button-1 {
-  color: #63AA9C;
+  margin-top: 5em;
 }
 
-.transition-button-2 {
-  color: #ECEAE0;
-}
-
-.section {
-  padding-bottom: 10em;
-}
 
 #section-1 {
-  background-color: #ECEAE0;
-  overflow-y: hidden;
+  background-image: url("/images/matterhornsummit.jpg");
+  height: 100%;
 }
 
 #section-2 {
-  background-color: #63AA9C;
-  padding: 5em 10em 10em 10em;
+  background-color: #ADD8E6;
+  opacity: 0.8;
+  padding: 5em 10em 2em 10em;
+}
+
+#section-3 {
+  background-color: #bdcaec;
+  opacity: 0.8;
 }
